@@ -3,18 +3,55 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AC47C5123E57853E6B527DC /* Pods_ReadStories_ReadStoriesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878B342DD542DD858E5AD8DC /* Pods_ReadStories_ReadStoriesUITests.framework */; };
 		811F8AAF26CABC93004A1E35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AAE26CABC93004A1E35 /* AppDelegate.swift */; };
 		811F8AB126CABC93004A1E35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AB026CABC93004A1E35 /* SceneDelegate.swift */; };
-		811F8AB326CABC93004A1E35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AB226CABC93004A1E35 /* ViewController.swift */; };
 		811F8AB626CABC93004A1E35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811F8AB426CABC93004A1E35 /* Main.storyboard */; };
 		811F8AB826CABC96004A1E35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 811F8AB726CABC96004A1E35 /* Assets.xcassets */; };
 		811F8ABB26CABC96004A1E35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 811F8AB926CABC96004A1E35 /* LaunchScreen.storyboard */; };
 		811F8AC626CABC96004A1E35 /* ReadStoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AC526CABC96004A1E35 /* ReadStoriesTests.swift */; };
 		811F8AD126CABC96004A1E35 /* ReadStoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AD026CABC96004A1E35 /* ReadStoriesUITests.swift */; };
+		811F8AE226CAC189004A1E35 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AE126CAC189004A1E35 /* R.generated.swift */; };
+		811F8AE626CAC2B2004A1E35 /* BaseWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AE526CAC2B2004A1E35 /* BaseWireframe.swift */; };
+		811F8AE826CAC2C5004A1E35 /* ViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AE726CAC2C5004A1E35 /* ViewInterface.swift */; };
+		811F8AEA26CAC2D9004A1E35 /* PresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AE926CAC2D9004A1E35 /* PresenterInterface.swift */; };
+		811F8AEC26CAC2E7004A1E35 /* InteractorInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AEB26CAC2E7004A1E35 /* InteractorInterface.swift */; };
+		811F8AEE26CAC307004A1E35 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AED26CAC307004A1E35 /* Loading.swift */; };
+		811F8AF026CAC316004A1E35 /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AEF26CAC316004A1E35 /* Screen.swift */; };
+		811F8AF826CAC3B0004A1E35 /* BaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AF726CAC3B0004A1E35 /* BaseApi.swift */; };
+		811F8AFA26CAC3C1004A1E35 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8AF926CAC3C1004A1E35 /* NetworkManager.swift */; };
+		811F8B0326CAC4D9004A1E35 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8B0226CAC4D9004A1E35 /* Entity.swift */; };
+		811F8B0526CAC57B004A1E35 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8B0426CAC57B004A1E35 /* HomePresenter.swift */; };
+		811F8B0726CAC594004A1E35 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8B0626CAC594004A1E35 /* HomeInteractor.swift */; };
+		811F8B0926CAC5AE004A1E35 /* HomeWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8B0826CAC5AE004A1E35 /* HomeWireFrame.swift */; };
+		811F8B0B26CAC5DC004A1E35 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8B0A26CAC5DC004A1E35 /* HomeViewController.swift */; };
+		811F8B0D26CAC67F004A1E35 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8B0C26CAC67F004A1E35 /* HomeProtocols.swift */; };
+		811F8B1126CB221A004A1E35 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811F8B0F26CB221A004A1E35 /* CollectionViewCell.swift */; };
+		811F8B1226CB221A004A1E35 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 811F8B1026CB221A004A1E35 /* CollectionViewCell.xib */; };
+		8197E06326CB81ED004E871E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E06226CB81ED004E871E /* DetailViewController.swift */; };
+		8197E06526CB81F8004E871E /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E06426CB81F8004E871E /* DetailPresenter.swift */; };
+		8197E06726CB8215004E871E /* DetailInteactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E06626CB8215004E871E /* DetailInteactor.swift */; };
+		8197E06926CB8226004E871E /* DetailWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E06826CB8226004E871E /* DetailWireFrame.swift */; };
+		8197E06B26CB8231004E871E /* DetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E06A26CB8231004E871E /* DetailProtocols.swift */; };
+		8197E06D26CB91EF004E871E /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E06C26CB91EF004E871E /* BaseNavigationController.swift */; };
+		8197E06F26CBB1BE004E871E /* ModelDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E06E26CBB1BE004E871E /* ModelDetail.swift */; };
+		8197E07326CBB5CA004E871E /* ChapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E07126CBB5CA004E871E /* ChapTableViewCell.swift */; };
+		8197E07426CBB5CA004E871E /* ChapTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8197E07226CBB5CA004E871E /* ChapTableViewCell.xib */; };
+		8197E0BD26CBC466004E871E /* ListImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E0BC26CBC466004E871E /* ListImageViewController.swift */; };
+		8197E0BF26CBC48F004E871E /* ListImagePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E0BE26CBC48F004E871E /* ListImagePresenter.swift */; };
+		8197E0C126CBC499004E871E /* ListImageWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E0C026CBC499004E871E /* ListImageWireFrame.swift */; };
+		8197E0C326CBC4A5004E871E /* ListImageInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E0C226CBC4A5004E871E /* ListImageInteractor.swift */; };
+		8197E0C526CBC4AE004E871E /* ListImageProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E0C426CBC4AE004E871E /* ListImageProtocols.swift */; };
+		8197E0C726CBCEAD004E871E /* ListImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E0C626CBCEAD004E871E /* ListImage.swift */; };
+		8197E0CB26CBD216004E871E /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8197E0C926CBD216004E871E /* ImageTableViewCell.swift */; };
+		8197E0CC26CBD216004E871E /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8197E0CA26CBD216004E871E /* ImageTableViewCell.xib */; };
+		81C4772926CBFF9400A1928A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C4772826CBFF9400A1928A /* BaseViewController.swift */; };
+		B04006E13FD9B6EECCF596D9 /* Pods_ReadStories.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43515A61C3363097913AACDA /* Pods_ReadStories.framework */; };
+		E7C00C8155001EB94BE3B024 /* Pods_ReadStoriesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC7CDEF4438A95F0C5F8BF3 /* Pods_ReadStoriesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +72,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E9EC8EBE6D5A15F06A0D240 /* Pods-ReadStoriesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadStoriesTests.release.xcconfig"; path = "Target Support Files/Pods-ReadStoriesTests/Pods-ReadStoriesTests.release.xcconfig"; sourceTree = "<group>"; };
+		341FE6D9392454E46A12E5AA /* Pods-ReadStories-ReadStoriesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadStories-ReadStoriesUITests.debug.xcconfig"; path = "Target Support Files/Pods-ReadStories-ReadStoriesUITests/Pods-ReadStories-ReadStoriesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		43515A61C3363097913AACDA /* Pods_ReadStories.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReadStories.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EC7CDEF4438A95F0C5F8BF3 /* Pods_ReadStoriesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReadStoriesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		811F8AAB26CABC93004A1E35 /* ReadStories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadStories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		811F8AAE26CABC93004A1E35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		811F8AB026CABC93004A1E35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		811F8AB226CABC93004A1E35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		811F8AB526CABC93004A1E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		811F8AB726CABC96004A1E35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		811F8ABA26CABC96004A1E35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +89,46 @@
 		811F8ACC26CABC96004A1E35 /* ReadStoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReadStoriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		811F8AD026CABC96004A1E35 /* ReadStoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadStoriesUITests.swift; sourceTree = "<group>"; };
 		811F8AD226CABC96004A1E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		811F8AE126CAC189004A1E35 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		811F8AE526CAC2B2004A1E35 /* BaseWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseWireframe.swift; sourceTree = "<group>"; };
+		811F8AE726CAC2C5004A1E35 /* ViewInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewInterface.swift; sourceTree = "<group>"; };
+		811F8AE926CAC2D9004A1E35 /* PresenterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterInterface.swift; sourceTree = "<group>"; };
+		811F8AEB26CAC2E7004A1E35 /* InteractorInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorInterface.swift; sourceTree = "<group>"; };
+		811F8AED26CAC307004A1E35 /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		811F8AEF26CAC316004A1E35 /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
+		811F8AF726CAC3B0004A1E35 /* BaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseApi.swift; sourceTree = "<group>"; };
+		811F8AF926CAC3C1004A1E35 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		811F8B0226CAC4D9004A1E35 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		811F8B0426CAC57B004A1E35 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		811F8B0626CAC594004A1E35 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		811F8B0826CAC5AE004A1E35 /* HomeWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireFrame.swift; sourceTree = "<group>"; };
+		811F8B0A26CAC5DC004A1E35 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		811F8B0C26CAC67F004A1E35 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		811F8B0F26CB221A004A1E35 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		811F8B1026CB221A004A1E35 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		8197E06226CB81ED004E871E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		8197E06426CB81F8004E871E /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		8197E06626CB8215004E871E /* DetailInteactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteactor.swift; sourceTree = "<group>"; };
+		8197E06826CB8226004E871E /* DetailWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWireFrame.swift; sourceTree = "<group>"; };
+		8197E06A26CB8231004E871E /* DetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailProtocols.swift; sourceTree = "<group>"; };
+		8197E06C26CB91EF004E871E /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		8197E06E26CBB1BE004E871E /* ModelDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDetail.swift; sourceTree = "<group>"; };
+		8197E07126CBB5CA004E871E /* ChapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapTableViewCell.swift; sourceTree = "<group>"; };
+		8197E07226CBB5CA004E871E /* ChapTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChapTableViewCell.xib; sourceTree = "<group>"; };
+		8197E0BC26CBC466004E871E /* ListImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageViewController.swift; sourceTree = "<group>"; };
+		8197E0BE26CBC48F004E871E /* ListImagePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImagePresenter.swift; sourceTree = "<group>"; };
+		8197E0C026CBC499004E871E /* ListImageWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageWireFrame.swift; sourceTree = "<group>"; };
+		8197E0C226CBC4A5004E871E /* ListImageInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageInteractor.swift; sourceTree = "<group>"; };
+		8197E0C426CBC4AE004E871E /* ListImageProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImageProtocols.swift; sourceTree = "<group>"; };
+		8197E0C626CBCEAD004E871E /* ListImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListImage.swift; sourceTree = "<group>"; };
+		8197E0C926CBD216004E871E /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		8197E0CA26CBD216004E871E /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		81C4772826CBFF9400A1928A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		878B342DD542DD858E5AD8DC /* Pods_ReadStories_ReadStoriesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReadStories_ReadStoriesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC191F61741E031D05E2A3D /* Pods-ReadStories.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadStories.release.xcconfig"; path = "Target Support Files/Pods-ReadStories/Pods-ReadStories.release.xcconfig"; sourceTree = "<group>"; };
+		CF448BA5273CB541C2B0B4DA /* Pods-ReadStories-ReadStoriesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadStories-ReadStoriesUITests.release.xcconfig"; path = "Target Support Files/Pods-ReadStories-ReadStoriesUITests/Pods-ReadStories-ReadStoriesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2D8945D7B8201E0ED383C7A /* Pods-ReadStoriesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadStoriesTests.debug.xcconfig"; path = "Target Support Files/Pods-ReadStoriesTests/Pods-ReadStoriesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C9DEC6C04276DC916294C4 /* Pods-ReadStories.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReadStories.debug.xcconfig"; path = "Target Support Files/Pods-ReadStories/Pods-ReadStories.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +136,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04006E13FD9B6EECCF596D9 /* Pods_ReadStories.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7C00C8155001EB94BE3B024 /* Pods_ReadStoriesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +152,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC47C5123E57853E6B527DC /* Pods_ReadStories_ReadStoriesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71AC9883D26357FFD10B0EE1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8C9DEC6C04276DC916294C4 /* Pods-ReadStories.debug.xcconfig */,
+				AAC191F61741E031D05E2A3D /* Pods-ReadStories.release.xcconfig */,
+				341FE6D9392454E46A12E5AA /* Pods-ReadStories-ReadStoriesUITests.debug.xcconfig */,
+				CF448BA5273CB541C2B0B4DA /* Pods-ReadStories-ReadStoriesUITests.release.xcconfig */,
+				D2D8945D7B8201E0ED383C7A /* Pods-ReadStoriesTests.debug.xcconfig */,
+				1E9EC8EBE6D5A15F06A0D240 /* Pods-ReadStoriesTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		811F8AA226CABC93004A1E35 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +179,8 @@
 				811F8AC426CABC96004A1E35 /* ReadStoriesTests */,
 				811F8ACF26CABC96004A1E35 /* ReadStoriesUITests */,
 				811F8AAC26CABC93004A1E35 /* Products */,
+				71AC9883D26357FFD10B0EE1 /* Pods */,
+				DA77CE970097670E2DEFF39E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +197,11 @@
 		811F8AAD26CABC93004A1E35 /* ReadStories */ = {
 			isa = PBXGroup;
 			children = (
+				811F8AF526CAC391004A1E35 /* Shared */,
+				811F8AE326CAC285004A1E35 /* Common */,
+				811F8ADF26CAC189004A1E35 /* MainModule */,
 				811F8AAE26CABC93004A1E35 /* AppDelegate.swift */,
 				811F8AB026CABC93004A1E35 /* SceneDelegate.swift */,
-				811F8AB226CABC93004A1E35 /* ViewController.swift */,
 				811F8AB426CABC93004A1E35 /* Main.storyboard */,
 				811F8AB726CABC96004A1E35 /* Assets.xcassets */,
 				811F8AB926CABC96004A1E35 /* LaunchScreen.storyboard */,
@@ -128,6 +228,288 @@
 			path = ReadStoriesUITests;
 			sourceTree = "<group>";
 		};
+		811F8ADF26CAC189004A1E35 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0B526CBC3CE004E871E /* ListContent */,
+				8197E05B26CB8170004E871E /* DetailBook */,
+				811F8AE026CAC189004A1E35 /* Resources */,
+				811F8AFB26CAC405004A1E35 /* Home */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		811F8AE026CAC189004A1E35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				811F8AE126CAC189004A1E35 /* R.generated.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		811F8AE326CAC285004A1E35 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				811F8AE426CAC29A004A1E35 /* VIPERContext */,
+				8197E06C26CB91EF004E871E /* BaseNavigationController.swift */,
+				81C4772826CBFF9400A1928A /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		811F8AE426CAC29A004A1E35 /* VIPERContext */ = {
+			isa = PBXGroup;
+			children = (
+				811F8AE526CAC2B2004A1E35 /* BaseWireframe.swift */,
+				811F8AE726CAC2C5004A1E35 /* ViewInterface.swift */,
+				811F8AE926CAC2D9004A1E35 /* PresenterInterface.swift */,
+				811F8AEB26CAC2E7004A1E35 /* InteractorInterface.swift */,
+				811F8AED26CAC307004A1E35 /* Loading.swift */,
+				811F8AEF26CAC316004A1E35 /* Screen.swift */,
+			);
+			path = VIPERContext;
+			sourceTree = "<group>";
+		};
+		811F8AF526CAC391004A1E35 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				811F8AF626CAC39E004A1E35 /* Networking */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		811F8AF626CAC39E004A1E35 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				811F8AF726CAC3B0004A1E35 /* BaseApi.swift */,
+				811F8AF926CAC3C1004A1E35 /* NetworkManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		811F8AFB26CAC405004A1E35 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				811F8B0E26CB2207004A1E35 /* Cell */,
+				811F8B0126CAC4B9004A1E35 /* Entity */,
+				811F8B0026CAC454004A1E35 /* Protocols */,
+				811F8AFF26CAC447004A1E35 /* WireFrame */,
+				811F8AFE26CAC43B004A1E35 /* Interactor */,
+				811F8AFD26CAC435004A1E35 /* Presenter */,
+				811F8AFC26CAC428004A1E35 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		811F8AFC26CAC428004A1E35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				811F8B0A26CAC5DC004A1E35 /* HomeViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		811F8AFD26CAC435004A1E35 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				811F8B0426CAC57B004A1E35 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		811F8AFE26CAC43B004A1E35 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				811F8B0626CAC594004A1E35 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		811F8AFF26CAC447004A1E35 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				811F8B0826CAC5AE004A1E35 /* HomeWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		811F8B0026CAC454004A1E35 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				811F8B0C26CAC67F004A1E35 /* HomeProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		811F8B0126CAC4B9004A1E35 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				811F8B0226CAC4D9004A1E35 /* Entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		811F8B0E26CB2207004A1E35 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				811F8B0F26CB221A004A1E35 /* CollectionViewCell.swift */,
+				811F8B1026CB221A004A1E35 /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8197E05B26CB8170004E871E /* DetailBook */ = {
+			isa = PBXGroup;
+			children = (
+				8197E07026CBB5B3004E871E /* Cell */,
+				8197E06126CB81A6004E871E /* Protocols */,
+				8197E06026CB8198004E871E /* WireFrame */,
+				8197E05F26CB8192004E871E /* Entity */,
+				8197E05E26CB818C004E871E /* Interactor */,
+				8197E05D26CB8187004E871E /* Presenter */,
+				8197E05C26CB8180004E871E /* View */,
+			);
+			path = DetailBook;
+			sourceTree = "<group>";
+		};
+		8197E05C26CB8180004E871E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8197E06226CB81ED004E871E /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8197E05D26CB8187004E871E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8197E06426CB81F8004E871E /* DetailPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8197E05E26CB818C004E871E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8197E06626CB8215004E871E /* DetailInteactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8197E05F26CB8192004E871E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8197E06E26CBB1BE004E871E /* ModelDetail.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8197E06026CB8198004E871E /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				8197E06826CB8226004E871E /* DetailWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		8197E06126CB81A6004E871E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8197E06A26CB8231004E871E /* DetailProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8197E07026CBB5B3004E871E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8197E07126CBB5CA004E871E /* ChapTableViewCell.swift */,
+				8197E07226CBB5CA004E871E /* ChapTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8197E0B526CBC3CE004E871E /* ListContent */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0C826CBD201004E871E /* Cell */,
+				8197E0BB26CBC439004E871E /* Protocols */,
+				8197E0BA26CBC42E004E871E /* Interactor */,
+				8197E0B926CBC421004E871E /* WireFrame */,
+				8197E0B826CBC41B004E871E /* Entity */,
+				8197E0B726CBC415004E871E /* Presenter */,
+				8197E0B626CBC40E004E871E /* View */,
+			);
+			path = ListContent;
+			sourceTree = "<group>";
+		};
+		8197E0B626CBC40E004E871E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0BC26CBC466004E871E /* ListImageViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8197E0B726CBC415004E871E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0BE26CBC48F004E871E /* ListImagePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8197E0B826CBC41B004E871E /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0C626CBCEAD004E871E /* ListImage.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		8197E0B926CBC421004E871E /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0C026CBC499004E871E /* ListImageWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		8197E0BA26CBC42E004E871E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0C226CBC4A5004E871E /* ListImageInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8197E0BB26CBC439004E871E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0C426CBC4AE004E871E /* ListImageProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8197E0C826CBD201004E871E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8197E0C926CBD216004E871E /* ImageTableViewCell.swift */,
+				8197E0CA26CBD216004E871E /* ImageTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DA77CE970097670E2DEFF39E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43515A61C3363097913AACDA /* Pods_ReadStories.framework */,
+				878B342DD542DD858E5AD8DC /* Pods_ReadStories_ReadStoriesUITests.framework */,
+				4EC7CDEF4438A95F0C5F8BF3 /* Pods_ReadStoriesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +517,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 811F8AD526CABC96004A1E35 /* Build configuration list for PBXNativeTarget "ReadStories" */;
 			buildPhases = (
+				3290617410A8F258C8A81022 /* [CP] Check Pods Manifest.lock */,
+				811F8ADE26CAC135004A1E35 /* R.swift */,
 				811F8AA726CABC93004A1E35 /* Sources */,
 				811F8AA826CABC93004A1E35 /* Frameworks */,
 				811F8AA926CABC93004A1E35 /* Resources */,
+				C2E433D0AFE03BFEB55396D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +537,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 811F8AD826CABC96004A1E35 /* Build configuration list for PBXNativeTarget "ReadStoriesTests" */;
 			buildPhases = (
+				F1966A297407F8185C8F35E1 /* [CP] Check Pods Manifest.lock */,
 				811F8ABD26CABC96004A1E35 /* Sources */,
 				811F8ABE26CABC96004A1E35 /* Frameworks */,
 				811F8ABF26CABC96004A1E35 /* Resources */,
@@ -170,9 +556,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 811F8ADB26CABC96004A1E35 /* Build configuration list for PBXNativeTarget "ReadStoriesUITests" */;
 			buildPhases = (
+				550432CDF6DEBDEC78956F2F /* [CP] Check Pods Manifest.lock */,
 				811F8AC826CABC96004A1E35 /* Sources */,
 				811F8AC926CABC96004A1E35 /* Frameworks */,
 				811F8ACA26CABC96004A1E35 /* Resources */,
+				DB8DD02FA6AF4D05F61940EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,6 +621,9 @@
 			files = (
 				811F8ABB26CABC96004A1E35 /* LaunchScreen.storyboard in Resources */,
 				811F8AB826CABC96004A1E35 /* Assets.xcassets in Resources */,
+				8197E07426CBB5CA004E871E /* ChapTableViewCell.xib in Resources */,
+				8197E0CC26CBD216004E871E /* ImageTableViewCell.xib in Resources */,
+				811F8B1226CB221A004A1E35 /* CollectionViewCell.xib in Resources */,
 				811F8AB626CABC93004A1E35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,14 +644,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3290617410A8F258C8A81022 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReadStories-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		550432CDF6DEBDEC78956F2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReadStories-ReadStoriesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811F8ADE26CAC135004A1E35 /* R.swift */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = R.swift;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/$PROJECT/MainModule/Resources/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/$PROJECT/MainModule/Resources/R.generated.swift\"\n\n";
+		};
+		C2E433D0AFE03BFEB55396D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadStories/Pods-ReadStories-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadStories/Pods-ReadStories-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReadStories/Pods-ReadStories-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB8DD02FA6AF4D05F61940EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadStories-ReadStoriesUITests/Pods-ReadStories-ReadStoriesUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReadStories-ReadStoriesUITests/Pods-ReadStories-ReadStoriesUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReadStories-ReadStoriesUITests/Pods-ReadStories-ReadStoriesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1966A297407F8185C8F35E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReadStoriesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		811F8AA726CABC93004A1E35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				811F8AB326CABC93004A1E35 /* ViewController.swift in Sources */,
+				8197E06B26CB8231004E871E /* DetailProtocols.swift in Sources */,
+				8197E0C526CBC4AE004E871E /* ListImageProtocols.swift in Sources */,
+				8197E07326CBB5CA004E871E /* ChapTableViewCell.swift in Sources */,
+				8197E0CB26CBD216004E871E /* ImageTableViewCell.swift in Sources */,
+				811F8AFA26CAC3C1004A1E35 /* NetworkManager.swift in Sources */,
+				811F8AEC26CAC2E7004A1E35 /* InteractorInterface.swift in Sources */,
+				811F8AEE26CAC307004A1E35 /* Loading.swift in Sources */,
+				81C4772926CBFF9400A1928A /* BaseViewController.swift in Sources */,
+				8197E06526CB81F8004E871E /* DetailPresenter.swift in Sources */,
+				8197E0C326CBC4A5004E871E /* ListImageInteractor.swift in Sources */,
+				811F8B0B26CAC5DC004A1E35 /* HomeViewController.swift in Sources */,
+				8197E0C726CBCEAD004E871E /* ListImage.swift in Sources */,
+				811F8B0D26CAC67F004A1E35 /* HomeProtocols.swift in Sources */,
+				811F8B0726CAC594004A1E35 /* HomeInteractor.swift in Sources */,
+				8197E06D26CB91EF004E871E /* BaseNavigationController.swift in Sources */,
+				811F8AE626CAC2B2004A1E35 /* BaseWireframe.swift in Sources */,
+				8197E06F26CBB1BE004E871E /* ModelDetail.swift in Sources */,
 				811F8AAF26CABC93004A1E35 /* AppDelegate.swift in Sources */,
+				811F8AF026CAC316004A1E35 /* Screen.swift in Sources */,
+				811F8B1126CB221A004A1E35 /* CollectionViewCell.swift in Sources */,
+				8197E06326CB81ED004E871E /* DetailViewController.swift in Sources */,
+				811F8B0526CAC57B004A1E35 /* HomePresenter.swift in Sources */,
+				811F8B0926CAC5AE004A1E35 /* HomeWireFrame.swift in Sources */,
 				811F8AB126CABC93004A1E35 /* SceneDelegate.swift in Sources */,
+				811F8AE826CAC2C5004A1E35 /* ViewInterface.swift in Sources */,
+				8197E06726CB8215004E871E /* DetailInteactor.swift in Sources */,
+				8197E0C126CBC499004E871E /* ListImageWireFrame.swift in Sources */,
+				811F8AF826CAC3B0004A1E35 /* BaseApi.swift in Sources */,
+				811F8B0326CAC4D9004A1E35 /* Entity.swift in Sources */,
+				811F8AE226CAC189004A1E35 /* R.generated.swift in Sources */,
+				811F8AEA26CAC2D9004A1E35 /* PresenterInterface.swift in Sources */,
+				8197E0BD26CBC466004E871E /* ListImageViewController.swift in Sources */,
+				8197E0BF26CBC48F004E871E /* ListImagePresenter.swift in Sources */,
+				8197E06926CB8226004E871E /* DetailWireFrame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +978,7 @@
 		};
 		811F8AD626CABC96004A1E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C9DEC6C04276DC916294C4 /* Pods-ReadStories.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +998,7 @@
 		};
 		811F8AD726CABC96004A1E35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAC191F61741E031D05E2A3D /* Pods-ReadStories.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +1018,7 @@
 		};
 		811F8AD926CABC96004A1E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2D8945D7B8201E0ED383C7A /* Pods-ReadStoriesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +1041,7 @@
 		};
 		811F8ADA26CABC96004A1E35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9EC8EBE6D5A15F06A0D240 /* Pods-ReadStoriesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +1064,7 @@
 		};
 		811F8ADC26CABC96004A1E35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341FE6D9392454E46A12E5AA /* Pods-ReadStories-ReadStoriesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +1085,7 @@
 		};
 		811F8ADD26CABC96004A1E35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF448BA5273CB541C2B0B4DA /* Pods-ReadStories-ReadStoriesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
